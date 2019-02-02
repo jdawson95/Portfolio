@@ -26,5 +26,12 @@ namespace Portfolio.Controllers
 
             return View();
         }
+
+        public ActionResult Project()
+        {
+            ViewBag.Message = "Your Project Page.";
+
+            return View();
+        }
     }
 }
